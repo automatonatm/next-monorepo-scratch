@@ -1,4 +1,4 @@
-import { Card } from "ui";
+import { Card, Button } from "ui";
 
 const LINKS = [
   {
@@ -26,13 +26,16 @@ const LINKS = [
 
 export default function Page(): JSX.Element {
   return (
-    <main className="bg-red-700 p-8 ">
+    <main className="bg-blue-100 p-8 ">
       <div className="flex justify-between items-center ">
         {LINKS.map(({ title, href, description }) => (
           <Card className="text" href={href} key={title} title={title}>
             {description}
           </Card>
         ))}
+      </div>
+      <div className="flex justify-bettween items-center">
+          <Button/>
       </div>
     </main>
   );
