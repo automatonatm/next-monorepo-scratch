@@ -34,7 +34,7 @@ export default function Page(): JSX.Element {
           </Card>
         ))}
       </div>
-      <div className="flex justify-bettween items-center">
+      <div className="flex justify-bettween items-center pt-[50px]">
           <Button/>
       </div>
     </main>

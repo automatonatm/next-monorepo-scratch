@@ -1,3 +1,6 @@
 // component exports
+
+import "./styles/index.css";
+
 export { Card } from "./card";
-export { Button } from "./Button";
+export { Button } from "./button";
