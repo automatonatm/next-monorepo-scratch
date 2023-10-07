@@ -1,20 +1,15 @@
-
-
-import './App.css'
+import "./App.css";
+import "ui/styles.css";
+import { Button } from "ui";
 
 function App() {
-
   return (
     <div className="bg-green-100 flex justify-center">
-     
       <h1 className="text-lg text-blue-600">Vite + React</h1>
-      <div className="card"> 
-        
-      </div>
-
+      <Button />
+      <div className="card"></div>
     </div>
-  )
+  );
 }
 
-export default App
- 
+export default App;
